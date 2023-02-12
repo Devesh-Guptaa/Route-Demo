@@ -1,0 +1,6 @@
+<p>employee-list works!</p>
+
+<ul>
+    <li (click)="func(detail.id)" [class.selectedId]="isSelected(detail.id)" *ngFor="let detail of data">{{detail.id}})
+        {{detail.firstName}}</li>
+</ul>
